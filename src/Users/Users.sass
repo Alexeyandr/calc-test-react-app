@@ -1,0 +1,51 @@
+.user-item
+    background: #FFFFFF
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10)
+    border-radius: 15px
+    padding: 15px 10px
+    padding-left: 15px
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    overflow: hidden
+    margin-bottom: 10px
+    position: relative
+    .name
+        flex-grow: 1
+        flex-basis: 0
+        padding-right: 10px
+        font-size: 24px
+        color: #000000
+    .sum
+        flex: 0 0 auto
+        font-size: 16px
+        color: #FFFFFF
+        background: #4A1C72
+        border-radius: 10px
+        padding: 5px 17px
+        &.sum-red
+            background: #CF0000
+        &.sum-green
+            background: #1C7249
+    .self-figure
+        position: absolute
+        left: -15px
+        top: -15px
+        width: 60px
+        height: 20px
+        background: #4A1C72
+        transform: rotate(-45deg)
+    &.user-item-result
+        padding-left: 35px
+        .arrow
+            position: absolute
+            top: 0
+            left: 0
+            height: 100%
+            display: flex
+            align-items: center
+            &.arrow-in
+                img
+                    position: relative
+                    left: -1px
+

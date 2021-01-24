@@ -1,0 +1,47 @@
+.App
+    background-color: #F9F9F9
+    min-height: 100vh
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    .top-bar
+        background: #FFFFFF
+        box-shadow: 0 2px 54px 0 rgba(0,0,0,0.18)
+        padding: 18px 0
+        width: 100%
+        position: fixed
+        top: 0
+        left: 0
+        text-align: center
+        z-index: 100
+        img
+            max-width: 100%
+    .content-container
+        flex: 0 0 100%
+        max-width: 100%
+        padding-top: 100px
+        display: flex
+        flex-wrap: wrap
+        @media ( min-width: 768px )
+            max-width: 767px 
+        .content-flex-block    
+            flex: 0 0 100%
+            min-width: 100%
+            align-self: flex-start
+            &.content-flex-block__top
+                align-self: flex-start
+            &.content-flex-block__center
+                align-self: center
+            &.content-flex-block__end
+                align-self: flex-end
+    .content
+        padding: 0 20px
+
+
+    .subheader
+        font-size: 15px
+        color: #727272
+    .empty-line
+        font-size: 15px
+        color: #000000
+        letter-spacing: 0
