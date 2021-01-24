@@ -19,7 +19,7 @@ export default function Calc ({userList, onGetCalcResult}) {
                         );
                     })}
 
-                    <ButtonLittleLight name="Получить рассчет" onClick={onGetCalcResult} />
+                    <ButtonLittleLight name="Получить расчет" onClick={onGetCalcResult} />
                 </div>
             </div>
             
